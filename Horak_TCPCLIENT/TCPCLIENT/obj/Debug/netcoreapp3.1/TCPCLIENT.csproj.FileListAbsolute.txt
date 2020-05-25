@@ -1,0 +1,13 @@
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\bin\Debug\netcoreapp3.1\TCPCLIENT.exe
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\bin\Debug\netcoreapp3.1\TCPCLIENT.deps.json
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\bin\Debug\netcoreapp3.1\TCPCLIENT.runtimeconfig.json
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\bin\Debug\netcoreapp3.1\TCPCLIENT.runtimeconfig.dev.json
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\bin\Debug\netcoreapp3.1\TCPCLIENT.dll
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\bin\Debug\netcoreapp3.1\TCPCLIENT.pdb
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\obj\Debug\netcoreapp3.1\TCPCLIENT.csprojAssemblyReference.cache
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\obj\Debug\netcoreapp3.1\TCPCLIENT.csproj.CoreCompileInputs.cache
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\obj\Debug\netcoreapp3.1\TCPCLIENT.AssemblyInfoInputs.cache
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\obj\Debug\netcoreapp3.1\TCPCLIENT.AssemblyInfo.cs
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\obj\Debug\netcoreapp3.1\TCPCLIENT.dll
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\obj\Debug\netcoreapp3.1\TCPCLIENT.pdb
+C:\Users\Majk\Desktop\TCPCLIENT\TCPCLIENT\obj\Debug\netcoreapp3.1\TCPCLIENT.genruntimeconfig.cache

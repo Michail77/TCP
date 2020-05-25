@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horak_TCP2", "Horak_TCP2\Horak_TCP2.csproj", "{9DAC450B-C2E3-4B24-A7BA-C5A60923A8BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DAC450B-C2E3-4B24-A7BA-C5A60923A8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAC450B-C2E3-4B24-A7BA-C5A60923A8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAC450B-C2E3-4B24-A7BA-C5A60923A8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAC450B-C2E3-4B24-A7BA-C5A60923A8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24F9A04F-4A73-4FF9-B521-61061289FB68}
+	EndGlobalSection
+EndGlobal

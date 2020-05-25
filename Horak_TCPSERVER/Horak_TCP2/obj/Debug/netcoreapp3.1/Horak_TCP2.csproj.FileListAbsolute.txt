@@ -1,0 +1,26 @@
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.exe
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.csprojAssemblyReference.cache
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.AssemblyInfoInputs.cache
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.AssemblyInfo.cs
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.csproj.CoreCompileInputs.cache
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.deps.json
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.runtimeconfig.json
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.runtimeconfig.dev.json
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.dll
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.pdb
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.dll
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.pdb
+C:\Users\Majk\Desktop\Horak_TCP2\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.genruntimeconfig.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.exe
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.deps.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.runtimeconfig.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.runtimeconfig.dev.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.dll
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\bin\Debug\netcoreapp3.1\Horak_TCP2.pdb
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.csprojAssemblyReference.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.csproj.CoreCompileInputs.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.AssemblyInfoInputs.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.AssemblyInfo.cs
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.dll
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.pdb
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER\Horak_TCP2\obj\Debug\netcoreapp3.1\Horak_TCP2.genruntimeconfig.cache

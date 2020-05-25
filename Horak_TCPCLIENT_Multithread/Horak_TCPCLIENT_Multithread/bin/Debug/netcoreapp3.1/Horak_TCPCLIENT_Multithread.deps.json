@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Horak_TCPCLIENT_Multithread/1.0.0": {
+        "runtime": {
+          "Horak_TCPCLIENT_Multithread.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Horak_TCPCLIENT_Multithread/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

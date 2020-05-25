@@ -1,0 +1,13 @@
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.AssemblyInfoInputs.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.AssemblyInfo.cs
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.exe
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.csprojAssemblyReference.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.deps.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.runtimeconfig.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.runtimeconfig.dev.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.dll
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.pdb
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.dll
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.pdb
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.genruntimeconfig.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPSERVER_Multithread\Horak_TCPSERVER_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPSERVER_Multithread.csproj.CoreCompileInputs.cache

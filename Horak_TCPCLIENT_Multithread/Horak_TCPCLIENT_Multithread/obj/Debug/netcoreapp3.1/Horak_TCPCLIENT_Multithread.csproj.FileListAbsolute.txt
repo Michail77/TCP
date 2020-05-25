@@ -1,0 +1,13 @@
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.csprojAssemblyReference.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.csproj.CoreCompileInputs.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.AssemblyInfoInputs.cache
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.AssemblyInfo.cs
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.exe
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.deps.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.runtimeconfig.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.runtimeconfig.dev.json
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.dll
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\bin\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.pdb
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.dll
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.pdb
+C:\Users\Majk\Desktop\School shit\P4_Horak_TCP\Horak_TCPCLIENT_Multithread\Horak_TCPCLIENT_Multithread\obj\Debug\netcoreapp3.1\Horak_TCPCLIENT_Multithread.genruntimeconfig.cache
