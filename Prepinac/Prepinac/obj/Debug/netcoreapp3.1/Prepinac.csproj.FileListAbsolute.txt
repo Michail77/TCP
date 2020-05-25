@@ -1,0 +1,13 @@
+C:\Users\Majk\source\repos\Prepinac\Prepinac\bin\Debug\netcoreapp3.1\Prepinac.exe
+C:\Users\Majk\source\repos\Prepinac\Prepinac\bin\Debug\netcoreapp3.1\Prepinac.deps.json
+C:\Users\Majk\source\repos\Prepinac\Prepinac\bin\Debug\netcoreapp3.1\Prepinac.runtimeconfig.json
+C:\Users\Majk\source\repos\Prepinac\Prepinac\bin\Debug\netcoreapp3.1\Prepinac.runtimeconfig.dev.json
+C:\Users\Majk\source\repos\Prepinac\Prepinac\bin\Debug\netcoreapp3.1\Prepinac.dll
+C:\Users\Majk\source\repos\Prepinac\Prepinac\bin\Debug\netcoreapp3.1\Prepinac.pdb
+C:\Users\Majk\source\repos\Prepinac\Prepinac\obj\Debug\netcoreapp3.1\Prepinac.csprojAssemblyReference.cache
+C:\Users\Majk\source\repos\Prepinac\Prepinac\obj\Debug\netcoreapp3.1\Prepinac.csproj.CoreCompileInputs.cache
+C:\Users\Majk\source\repos\Prepinac\Prepinac\obj\Debug\netcoreapp3.1\Prepinac.AssemblyInfoInputs.cache
+C:\Users\Majk\source\repos\Prepinac\Prepinac\obj\Debug\netcoreapp3.1\Prepinac.AssemblyInfo.cs
+C:\Users\Majk\source\repos\Prepinac\Prepinac\obj\Debug\netcoreapp3.1\Prepinac.dll
+C:\Users\Majk\source\repos\Prepinac\Prepinac\obj\Debug\netcoreapp3.1\Prepinac.pdb
+C:\Users\Majk\source\repos\Prepinac\Prepinac\obj\Debug\netcoreapp3.1\Prepinac.genruntimeconfig.cache

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prepinac", "Prepinac\Prepinac.csproj", "{20960BE3-FBE7-4B32-BD21-528F5532980F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20960BE3-FBE7-4B32-BD21-528F5532980F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20960BE3-FBE7-4B32-BD21-528F5532980F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20960BE3-FBE7-4B32-BD21-528F5532980F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20960BE3-FBE7-4B32-BD21-528F5532980F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9A487D4-FF2E-487B-91D5-3E4A111558E4}
+	EndGlobalSection
+EndGlobal
