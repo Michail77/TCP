@@ -1,0 +1,93 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h1>Battleships</h1>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <p>You need to be logged in in order to play Battleships. <a asp-area="Identity" asp-page="/Account/Login">Login</a> or <a asp-area="Identity" asp-page="/Account/Register">Register</a>.</p>
+    }
+    else
+    {
+        if (Model.QuitGame != null)
+        {
+            if ((bool)Model.QuitGame)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Quit game.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    Error quiting game.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            }
+        }
+        if (Model.JoinedGame != null && !(bool)Model.JoinedGame)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                Error joining game.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        switch(Model.PlayerState)
+        {
+            case PlayerState.NotInGame:
+                <a class="btn btn-primary" asp-page="/Game/Create" asp-page-handler="TryCreate">Create game</a>
+                <h2>Joinable games</h2>
+                @if (Model.JoinableGames == null || Model.JoinableGames.Count == 0)
+                {
+                    <p>There are no joinable games.</p>
+                }
+                else
+                {
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Game Id</th>
+                                <th>Player1 Id</th>
+                                <th>Join</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Model.Game game in Model.JoinableGames)
+                            {
+                                <tr>
+                                    <td>@game.Id</td>
+                                    <td>@game.Player1Id</td>
+                                    <td>
+                                        <a class="btn btn-primary" asp-route-GameId="@game.Id" asp-page="/Game/Join">Join</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                break;
+            case PlayerState.WaitingForPlayer:
+                <p>Waiting for player. You can <a asp-page="/Game/Quit">quit game here</a>.</p>
+                break;
+            case PlayerState.WaitingForStart:
+                <p>Waiting for owner to start the game. You can <a asp-page="/Game/Quit">quit game here</a>.</p>
+                break;
+            case PlayerState.ReadyToStart:
+                <p>Game is ready, you can <a asp-page="/Game/Create" asp-page-handler="Start">start the game</a>. You can <a asp-page="/Game/Quit">quit game here</a>.</p>
+                break;
+            case PlayerState.InGame:
+                <p>You are already in game <a asp-page="/Game/Play">join back</a> or <a asp-page="/Game/Quit">quit game</a>.</p>
+                break;
+        }
+    }
+</div>

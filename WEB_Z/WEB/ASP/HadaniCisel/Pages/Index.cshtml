@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@if (Model.Error != "")
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @Model.Error
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+    <h1 class="display-4">Hádání čísel</h1>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="From">Od:</label>
+            <input type="number" class="form-control" asp-for="From" aria-describedby="aHelp" placeholder="Zadejte od">
+            <small id="aHelp" asp-validation-for="From" class="form-text text-danger"></small>
+        </div>
+        <div class="form-group">
+            <label asp-for="To">Do:</label>
+            <input type="number" class="form-control" asp-for="To" aria-describedby="bHelp" placeholder="Zadejte do">
+            <small id="bHelp" asp-validation-for="To" class="form-text text-danger"></small>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Hraj</button>
+        </div>
+    </form>

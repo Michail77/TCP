@@ -1,0 +1,11 @@
+C:\Users\Pavel\Desktop\TreeList\bin\Debug\netcoreapp3.0\TreeList.exe
+C:\Users\Pavel\Desktop\TreeList\bin\Debug\netcoreapp3.0\TreeList.deps.json
+C:\Users\Pavel\Desktop\TreeList\bin\Debug\netcoreapp3.0\TreeList.runtimeconfig.json
+C:\Users\Pavel\Desktop\TreeList\bin\Debug\netcoreapp3.0\TreeList.runtimeconfig.dev.json
+C:\Users\Pavel\Desktop\TreeList\bin\Debug\netcoreapp3.0\TreeList.dll
+C:\Users\Pavel\Desktop\TreeList\bin\Debug\netcoreapp3.0\TreeList.pdb
+C:\Users\Pavel\Desktop\TreeList\obj\Debug\netcoreapp3.0\TreeList.csprojAssemblyReference.cache
+C:\Users\Pavel\Desktop\TreeList\obj\Debug\netcoreapp3.0\TreeList.AssemblyInfoInputs.cache
+C:\Users\Pavel\Desktop\TreeList\obj\Debug\netcoreapp3.0\TreeList.AssemblyInfo.cs
+C:\Users\Pavel\Desktop\TreeList\obj\Debug\netcoreapp3.0\TreeList.dll
+C:\Users\Pavel\Desktop\TreeList\obj\Debug\netcoreapp3.0\TreeList.pdb

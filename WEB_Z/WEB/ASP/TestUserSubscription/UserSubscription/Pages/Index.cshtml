@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@if (!String.IsNullOrEmpty(Model.SuccessMessage))
+{
+    <div class="alert alert-success" role="alert">@Model.SuccessMessage</div>
+}
+@if (!String.IsNullOrEmpty(Model.FailureMessage))
+{
+    <div class="alert alert-danger" role="alert">@Model.FailureMessage</div>
+}
+
+<div class="jumbotron">
+    <h1 class="display-4">Vítejte!</h1>
+    <p class="lead">Jsme rádi, že Vás naše nová hra zaujala.</p>
+    <hr class="my-4">
+    <p>Pokud chcete o ní být průběžně informování, můžete se přihlásit k odběru emailového občasníku.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" asp-page="Subscription" role="button">Přihlásit k odběru</a>
+    </p>
+</div>
+<p>Přehled všech přihlášek <a asp-page="List">najdete v seznamu</a> (ale koukat do něj smějí jen správci).</p>

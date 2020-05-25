@@ -1,0 +1,14 @@
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\Horak_MailKit.exe
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\obj\Debug\netcoreapp3.1\Horak_MailKit.csprojAssemblyReference.cache
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\obj\Debug\netcoreapp3.1\Horak_MailKit.AssemblyInfoInputs.cache
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\obj\Debug\netcoreapp3.1\Horak_MailKit.AssemblyInfo.cs
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\Postal.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\bin\Debug\netcoreapp3.1\RazorEngine.dll
+C:\Users\Majk\Desktop\School shit\Horak_MailKit\Horak_MailKit\obj\Debug\netcoreapp3.1\Horak_MailKit.csproj.CopyComplete

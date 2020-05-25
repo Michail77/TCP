@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0yx0XuZdtXlcpLIYz19glHQPDpmm5vMR7q85wEpBBMPESEtYXxdvVlxWF7+LGVVj5VvGB/hqt4/MpRo/VAwDiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Majk\\Downloads\\PRG\\PRG\\TreeList\\TreeList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Majk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Majk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

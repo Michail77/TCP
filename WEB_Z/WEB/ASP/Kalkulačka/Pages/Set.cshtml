@@ -1,0 +1,40 @@
+﻿@page
+@using second.Data
+@model second.Pages.Set
+
+@{
+    ViewData["Title"] = "Set";
+}
+
+@if (Model.error != "")
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @Model.error
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<h1>Set</h1>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Input.a">První číslo:</label>
+            <input type="number" class="form-control" asp-for="Input.a" aria-describedby="aHelp" placeholder="Zadejte první číslo">
+            <small id="aHelp" asp-validation-for="Input.a" class="form-text text-danger"></small>
+        </div>
+        <div class="form-group">
+            <label asp-for="Input.b">Druhé číslo:</label>
+            <input type="number" class="form-control" asp-for="Input.b" aria-describedby="bHelp" placeholder="Zadejte druhé číslo">
+            <small id="bHelp" asp-validation-for="Input.b" class="form-text text-danger"></small>
+        </div>
+        <div class="form-group">
+            <label asp-for="Input.op">Operace:</label>
+            <select class="form-control" asp-for="Input.op" asp-items="Html.GetEnumSelectList<Operation>()"></select>
+            <small id="opHelp" asp-validation-for="Input.op" class="form-text text-danger"></small>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Spočítej</button>
+        </div>
+    </form>
+<p>Výsledek: @Model.result</p>

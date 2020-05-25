@@ -1,0 +1,13 @@
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Horak_TCP3.exe
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Horak_TCP3.deps.json
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Horak_TCP3.runtimeconfig.json
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Horak_TCP3.runtimeconfig.dev.json
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Horak_TCP3.dll
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Horak_TCP3.pdb
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Horak_TCP3.AssemblyInfoInputs.cache
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Horak_TCP3.AssemblyInfo.cs
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Horak_TCP3.dll
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Horak_TCP3.pdb
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Horak_TCP3.genruntimeconfig.cache
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Horak_TCP3.csprojAssemblyReference.cache
+C:\Users\Majk\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Horak_TCP3.csproj.CoreCompileInputs.cache

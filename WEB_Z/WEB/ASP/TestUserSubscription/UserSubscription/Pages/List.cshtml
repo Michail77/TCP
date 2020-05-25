@@ -1,0 +1,44 @@
+﻿@page
+@model UserSubscription.Pages.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Seznam platných přihlášek</h1>
+@if (Model.Subscriptions.Count == 0)
+{
+    <p>Žádné přihlášky neexistují.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Jméno</th>
+                <th>Příjmení</th>
+                <th>Email</th>
+                <th>Stát</th>
+                <th>Pohlaví</th>
+                <th>Souhlas</th>
+                <th>Potvrzený email</th>
+                <th>Potvrzovací kód</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var sub in Model.Subscriptions)
+            {
+            <tr>
+                <td>@sub.FirstName</td>
+                <td>@sub.LastName</td>
+                <td>@sub.Email</td>
+                <td>@sub.CountryCode</td>
+                <td>@(sub.Gender == Models.Gender.Male ? "Muž" : (sub.Gender == Models.Gender.Female ? "Žena" : "Jiné"))</td>
+                <td>@(sub.Agreed ? "Ano" : "Ne")</td>
+                <td>@(sub.Confirmed ? "Ano" : "Ne")</td>
+                <td>@sub.ConfirmationCode</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+

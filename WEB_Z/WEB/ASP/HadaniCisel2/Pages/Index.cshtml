@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@if (!string.IsNullOrEmpty(Model.SuccessMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @Model.SuccessMessage
+    </div>
+}
+@if (Model.State.State == Models.GameState.Running)
+{
+    <div class="text-center">
+        <p>@Model.State.GuessedNumber</p>
+        <p>@Model.Result</p>
+        <a asp-page="Guess" class="btn btn-primary">Guess</a>
+        </div>
+}
+else
+{
+    <div class="text-center">
+        <p>Výhra</p>
+        <a asp-page-handler="restart" class="btn btn-primary">Restart</a>
+    </div>
+}
+

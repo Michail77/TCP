@@ -1,0 +1,64 @@
+﻿@page
+@model Battleships.Pages.Game.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+@if (Model.CreatedGame != null)
+{
+    if ((bool)Model.CreatedGame)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            Game created.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Error creating game.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+}
+
+@if (Model.JoinedGame != null && (bool)Model.JoinedGame)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        Joined game.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+@if (Model.StartedGame != null && !(bool)Model.StartedGame)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        Error starting game.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+@switch (Model.PlayerState)
+{
+    case PlayerState.WaitingForPlayer:
+        <p>Waiting for player. You can <a asp-page="/Game/Quit">quit game here</a>.</p>
+        break;
+    case PlayerState.WaitingForStart:
+        <p>Waiting for owner to start the game. You can <a asp-page="/Game/Quit">quit game here</a>.</p>
+        break;
+    case PlayerState.ReadyToStart:
+        <p>Game is ready, you can <a asp-page-handler="TryStart">start the game</a>. You can <a asp-page="/Game/Quit">quit game here</a>.</p>
+        break;
+    case PlayerState.InGame:
+        <p>You are already in game <a asp-page="/Game/Play">join back</a> or <a asp-page="/Game/Quit">quit game</a>.</p>
+        break;
+}

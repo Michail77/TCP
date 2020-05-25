@@ -1,0 +1,29 @@
+﻿@page
+@model HadaniCisel.Pages.Set
+
+@{
+    ViewData["Title"] = "Set";
+}
+
+
+@if (Model.Error != "")
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @Model.Error
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+<h1>Hádání čísel</h1>
+<p>@Model.Text</p>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Number">Hádané číslo:</label>
+        <input type="number" class="form-control" asp-for="Number" aria-describedby="aHelp" placeholder="Zadejte hádané číslo">
+        <small id="aHelp" asp-validation-for="Number" class="form-text text-danger"></small>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary">Hádej</button>
+    </div>
+</form>

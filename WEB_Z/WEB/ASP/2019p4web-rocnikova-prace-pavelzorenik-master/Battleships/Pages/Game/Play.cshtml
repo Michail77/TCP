@@ -1,0 +1,129 @@
+﻿@page
+@model Battleships.Pages.Game.PlayModel
+@{
+    ViewData["Title"] = "Play";
+}
+
+<div>
+    @if (Model.PlacedShip != null)
+    {
+        if ((bool)Model.PlacedShip)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                Ship placed.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                Error placing ship.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+    }
+    @if (Model.RemovedShip != null)
+    {
+        if ((bool)Model.RemovedShip)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                Ship removed.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                Error removing ship.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+    }
+    @switch (Model.GameState)
+    {
+        case GameState.PlacingShips:
+            <h2>Placing ships</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Placeable ships (Length) (Id)</h3>
+                        <p>Click on horizontal or vetical after ship name and then on board.</p>
+                        @if (Model.Ships.Where(s => s.IsPlaced == false).FirstOrDefault() == null)
+                        {
+                            <a asp-page-handler="">End placing.</a>
+                        }
+                        @foreach (Ship ship in Model.Ships)
+                        {
+                            if (!ship.IsPlaced)
+                            {
+                                <p>
+                                    @ship.Name (@ship.Length) (@ship.Id)
+                                    <a asp-page-handler="SelectShip" asp-route-ShipId="@ship.Id" asp-route-Reversed="@false">Horizontal</a>
+                                    <a asp-page-handler="SelectShip" asp-route-ShipId="@ship.Id" asp-route-Reversed="@true">Vertical</a>
+                                </p>
+                            }
+                        }
+                    </div>
+                    <div class="col">
+                        <h3>Placed ships (Length) (Id)</h3>
+                        <p>Click on ship to remove.</p>
+                        @foreach (Ship ship in Model.Ships)
+                        {
+                            if (ship.IsPlaced)
+                            {
+                                <a asp-page-handler="RemoveShip" asp-route-ShipId="@ship.Id">@ship.Name (@ship.Length) (@ship.Id)</a><br />
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <tbody>
+                    @for (int i = 0; i < Model.BoardSize + 1; i++)
+                    {
+                        <tr>
+                            @for (int j = 0; j < Model.BoardSize + 1; j++)
+                            {
+                                if (i == 0 || j == 0)
+                                {
+                                    if (i == 0 && j == 0)
+                                    {
+                                        <td></td>
+                                    }
+                                    else if (i == 0)
+                                    {
+                                        <td>@j</td>
+                                    }
+                                    else
+                                    {
+                                        <td>@Convert.ToChar(64 + i)</td>
+                                    }
+                                }
+                                else if (Model.BoardPieces.Where(bp => bp.X == i - 1 && bp.Y == j - 1 && bp.ShipId == null).FirstOrDefault() != null)
+                                {
+                                    <td><a class="btn btn-primary" asp-page-handler="PlaceShip" asp-route-X="@i" asp-route-Y="@j" asp-route-ShipId="@Model.SelectedShipId" asp-route-Reversed="@Model.Reversed">P</a></td>
+                                }
+                                else if (Model.BoardPieces.Where(bp => bp.X == i - 1 && bp.Y == j - 1 && bp.ShipId != null).FirstOrDefault() != null)
+                                {
+                                    <td>@Model.BoardPieces.Where(bp => bp.X == i - 1 && bp.Y == j - 1 && bp.ShipId != null).FirstOrDefault().ShipId</td>
+                                }
+                                else
+                                {
+                                    <td></td>
+                                }
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            break;
+    }
+</div>

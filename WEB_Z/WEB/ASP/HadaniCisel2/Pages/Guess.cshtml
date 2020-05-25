@@ -1,0 +1,17 @@
+﻿@page
+@model HadaniCisel2.Pages.Guess
+
+@{
+}
+
+
+<form method="post">
+  <div class="form-group">
+    <label asp-for="GuessedNumber">Číslo</label>
+      @*<input type="number" class="form-control" asp-for="GuessedNumber" placeholder="Enter email">*@
+      <select class="form-control" asp-for="GuessedNumber" asp-items="Model.AllNumbers"></select>
+  </div> 
+    <div class="form-group">
+        <button class="btn btn-primary" type="submit">Uložit</button>
+    </div>
+</form>

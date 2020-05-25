@@ -1,0 +1,20 @@
+﻿@page
+@model HadaniCisel2.Pages.SetModel
+@{
+    ViewData["Title"] = "Set";
+}
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Number">Číslo</label>
+        <input type="number" class="form-control" asp-for="Number">
+    </div>
+    <button class="btn btn-primary" type="submit">Uložit</button>
+</form>
+

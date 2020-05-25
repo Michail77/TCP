@@ -1,0 +1,54 @@
+﻿@page
+@model UserSubscription.Pages.SubscriptionModel
+@{
+    ViewData["Title"] = "Subscription";
+}
+@if (!String.IsNullOrEmpty(Model.SuccessMessage))
+{
+    <div class="alert alert-success" role="alert">@Model.SuccessMessage</div>
+}
+@if (!String.IsNullOrEmpty(Model.FailureMessage))
+{
+    <div class="alert alert-danger" role="alert">@Model.FailureMessage</div>
+}
+<h1>Přihlášení k odběru</h1>
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Input.FirstName"></label>
+        <input asp-for="Input.FirstName" class="form-control" />
+        <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.LastName"></label>
+        <input asp-for="Input.LastName" class="form-control" />
+        <span asp-validation-for="Input.LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.Email"></label>
+        <input asp-for="Input.Email" class="form-control" />
+        <span asp-validation-for="Input.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.Gender"></label>
+        <select asp-for="Input.Gender" class="form-control" asp-items="Html.GetEnumSelectList<Models.Gender>()">
+            <option value="">Vyberte si</option>
+        </select>
+        <span asp-validation-for="Input.Gender" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.CountryCode"></label>
+        <select asp-for="Input.CountryCode" class="form-control" asp-items="Model.CountriesList">
+            <option value="">Vyberte si</option>
+        </select>
+        <span asp-validation-for="Input.CountryCode" class="text-danger"></span>
+    </div>
+    <div class="form-check">
+        <input asp-for="Input.Agreed" class="form-check-input" />
+        <label class="form-check-label" asp-for="Input.Agreed"></label>
+        <span asp-validation-for="Input.Agreed" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Uložit</button> <a class="btn btn-light" asp-page="Index">Zpět</a>
+    </div>
+</form>

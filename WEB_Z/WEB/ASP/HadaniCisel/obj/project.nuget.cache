@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zJDAXiapqjfWgq0pZt+idgDAWYTi+KMQU0aBmpUWftcGtf5nJMyg2zITQ+984c3x2encXqrkrEzOtocGRT8cFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Majk\\Downloads\\WEB\\WEB\\ASP\\HadaniCisel\\HadaniCisel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Majk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Majk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
